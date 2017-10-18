@@ -16,8 +16,6 @@ public class CommunicationActivity extends AppCompatActivity implements Communic
         setContentView(R.layout.activity_communication);
 
         addCommunicationFragment();
-        mCommunicationFragment.setmCallback(this);
-
     }
 
     private void addCommunicationFragment(){
