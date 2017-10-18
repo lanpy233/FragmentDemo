@@ -24,4 +24,12 @@
         android:layout_weight="1"
         android:orientation="vertical"
         ></LinearLayout>
+
+    <!-- 静态使用fragment,注意对应的fragment所在activity必须是FragmentActivity,AppcompatActivity继承FragmentActivity-->
+    <fragment
+        android:name="test.yuan.com.fragmentdemo.MainFragment1"
+        android:id="@+id/mainFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></fragment>
 </RelativeLayout>
